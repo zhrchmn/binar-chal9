@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const db = firebase.firestore();
 
 const Register = () => {
-    const navigate = useNavigate;
+    const navigate = useNavigate();
 
     const [username, setUsername] = React.useState("");
     const [password, setPassword] = React.useState("");
